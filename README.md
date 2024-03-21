@@ -1,6 +1,9 @@
 # Iris-Classification
 
-Embarking on the journey of machine learning involves exploring various algorithms, each with its unique characteristics and applications. Among these algorithms, K-Nearest Neighbors (KNN) stands out for its simplicity and versatility. In this article, we'll delve deeper into the workings of KNN while applying it to classify the iconic Iris flower dataset. Furthermore, we'll emphasize the importance of data normalization in enhancing the performance of our model.
+The process of flower species classification involves splitting the Iris dataset into two parts: a training set comprising 80% of the data and a testing set with the remaining 20%. Using the training set, a classification model based on the K-Nearest Neighbors algorithm is developed. Once the model is trained, it is evaluated using the testing set, where unlabeled data is presented to the model for classification. By analyzing similarities with labeled instances in the training set, the model assigns species labels (Setosa, Versicolor, or Virginica) to the testing data. This approach outlines a systematic method for accurately categorizing new instances of Iris flowers into their respective species.
+
+<img width="882" alt="image" src="https://github.com/rizcazahra/Iris-Classification/assets/84758353/4a84da2d-7220-447b-8bd7-099dc4c21e0d">
+
 
 1. Importing Essential Libraries:
 We commence by importing essential libraries such as Pandas, NumPy, and Matplotlib for data manipulation and visualization. Additionally, we import the KNeighborsClassifier from Scikit-learn, which serves as our primary tool for implementing the KNN algorithm.
